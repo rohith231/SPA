@@ -1,0 +1,22 @@
+ul {
+  margin-bottom: 0 !important;
+}
+.Telemed2UImg1 {
+  background-image: url("/src/assets/images/Telemed2U.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.Telemed2UImg2 {
+  background-image: url("/src/assets/images/Telemed2UImage.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.summary {
+  margin: 0 !important;
+}

@@ -1,0 +1,65 @@
+.goalImg {
+  margin-bottom: 10px;
+  height: 140px;
+}
+#Achivements{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* .goalTxt {
+    margin: auto;
+    font-weight: 300 !important;
+    font-size: 15px !important;
+    color: #0a0a0a !important;
+    text-align: center !important;
+  } */
+.Achive {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0px 30px 30px 30px;
+}
+.goalCard {
+  min-width: 160px;
+  width: 16%;
+  transition: all 0.3s;
+}
+.goalImg:hover {
+  cursor: pointer;
+}
+/* #Achivements {
+  height: 400px;
+} */
+#Achivements h1 {
+  margin: 0 auto 20px;
+  font-family: unset!important;
+}
+#Achivements .line {
+  height: 4px;
+  width: 230px;
+  background-color: #030008;
+  min-height: 0px;
+  margin-bottom: 25px;
+}
+#Achivements .div-block {
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 580px) {
+  /* #Achivements {
+    height: 880px;
+  } */
+  .goalImg {
+    height: 100px;
+  }
+  .goalCard {
+    min-width: 100px;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  #Achivements {
+    top: -30px;
+    height: 680px;
+  }
+}

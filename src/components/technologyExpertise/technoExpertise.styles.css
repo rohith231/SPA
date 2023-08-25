@@ -1,0 +1,91 @@
+.techno-exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.techno-exp h2 {
+    margin-bottom: 100px;
+}
+.cardWrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.techno-exp-card {
+    width: 100%;
+    border: none !important;
+    box-shadow: none;
+}
+.techno-exp-container {
+    min-width: 350px;
+    width: 24% !important;
+}
+.techno-exp-card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.techno-exp-card button {
+    float: left;
+}
+
+.techno-exp-expice-card .card-text {
+    text-align: justify;
+}
+
+.techno-exp-card-header {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.techno-exp-card-header svg {
+    font-size: 40px;
+    margin: 10px;
+}
+.iconWrapper {
+    position: relative;
+    right: 0px;
+    width: fit-content;
+}
+
+.iconWrapper::before {
+    background: linear-gradient(45deg, transparent, rgba(47, 85, 212, 0.1));
+    content: "";
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    width: 64px;
+    height: 64px;
+    border-radius: 6px;
+    transform: rotate(33.75deg);
+}
+
+.techno-exp-card h5 {
+    font-size: 25px;
+}
+
+.techno-exp-card p {
+    font-size: 18px;
+}
+
+.techno-exp-card:hover .iconWrapper::before {
+    animation: rotator 3s infinite linear;
+}
+.serviceIcon {
+    color: #2f55d4 !important;
+    text-align: left;
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: 42px !important;
+}
+@media screen and (max-width: 580px) {
+    .techno-exp h2 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {}

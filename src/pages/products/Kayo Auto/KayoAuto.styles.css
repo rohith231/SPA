@@ -1,0 +1,22 @@
+ul {
+  margin-bottom: 0 !important;
+}
+.KayoAutoImg1 {
+  background-image: url("/src/assets/images/KayoAutoImg1.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.KayoAutoImg2 {
+  background-image: url("/src/assets/images/KayoAutoImg2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.summary {
+  margin: 0 !important;
+}

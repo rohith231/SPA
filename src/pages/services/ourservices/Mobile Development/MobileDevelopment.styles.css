@@ -1,0 +1,164 @@
+.mob-dev-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.mob-dev-container .heading1 {
+    margin: 40px 0;
+    width: auto;
+}
+.heading4 {
+    margin: 0;
+    width: 40%;
+}
+.heading4 h4, a {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.35);
+}
+.heading4 a {
+    text-decoration: none;
+}
+.para {
+    margin: auto;
+    width: 85%;
+    text-align: justify;
+    font-size: 18px;
+}
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px auto;
+    width: 90%;
+}
+.card-container {
+    border-radius: 12px;
+    margin: auto;
+    padding: 10px 0;
+}
+.blue {
+    background-color: rgba(70, 80, 220, 1);
+}
+.heading5 {
+    margin: 24px 0;
+}
+.white-h5 {
+    color: #eee;
+}
+.card-para {
+    margin: 20px auto;
+    width: 70%;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center !important;
+}
+.white-p {
+    color: rgba(255, 255, 255, 0.5);
+}
+.icon {
+    margin: 18px auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+.white-icon {
+    background-color: rgba(255, 255, 255);
+}
+.startupIcon {
+    background-image: url("/src/assets/images/StartupMVP.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+}
+
+.quickIcon {
+    background-image: url("/src/assets/images/cost_effective_quick_mobile_apps.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+}
+
+.reliableSupportIcon {
+    background-image: url("/src/assets/images/mobile_app_customer_support.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    background-position: center;
+}
+.cordavaIcon {
+    background-image: url("/src/assets/images/cordova-ionic-phonegap.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    background-position: center;
+}
+.container3 {
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col70 {
+    width: 70%;
+}
+.col30 {
+    width: 30%;
+    text-align: left;
+}
+.col30 h2 {
+    margin-left: 10px;
+    width: 90%;
+}
+.col30 a {
+    text-decoration: none;
+}
+.p1 {
+    margin: auto 0;
+    width: 100%;
+}
+.p2 {
+    margin: 10px 0;
+    width: 100%;
+    }
+@media screen and (max-width: 580px) {
+    .container2 {
+        flex-direction: column;
+        width: 95%;
+    }
+    .container3 {
+        flex-direction: column;
+    }
+    .col70 {
+        width: 95%;
+    }
+    .col30 {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .container2 {
+        flex-direction: column;
+        width: 95%;
+    }
+    .container3 {
+        flex-direction: column;
+    }
+    .col70 {
+        width: 95%;
+    }
+    .col30 {
+        width: 95%;
+    }
+}

@@ -1,0 +1,36 @@
+.Nodejs1 {
+    background-image: url("/src/assets/images/Hire_a_Mean_stack_developer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 120px;
+    /* background-position: center;  */
+   
+     margin-top: 20px;
+     
+    
+}
+.Nodejs2 {
+    background-image: url("/src/assets/images/nodefr.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 350px;
+    /* background-position: center;  */
+   
+     margin-top: 20px;
+     
+    
+}
+.Nodejs3 {
+    background-image: url("/src/assets/images/node_banner.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 230px;
+    /* background-position: center;  */
+   
+     margin-top: 20px;
+     
+    
+}

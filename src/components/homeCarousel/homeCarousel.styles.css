@@ -1,0 +1,385 @@
+.bgImg {
+  height: 100vh;
+  background: url("../../assets/images/home/build.png") bottom no-repeat;
+  padding: 0;
+  align-self: center;
+  position: relative;
+  width: 100% !important;
+  display: table !important;
+  overflow: hidden !important;
+  z-index: 1;
+}
+.home-carousel {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  text-align: left;
+  z-index: 1;
+}
+.slide1 h1 {
+  display: flex;
+  flex-direction: column;
+}
+.scroller h3 {
+  font-size: 45px;
+}
+.scroller {
+  height: 1.2em;
+  width: 240px;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  font-size: 40px;
+  text-align: center;
+}
+.scroller > span {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: fit-content;
+  animation: slide 8s infinite;
+  color: #2f55d4;
+  font-weight: 700 !important;
+  text-align: left;
+  font-size: 45px !important;
+  font-weight: 500;
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
+  }
+}
+.carousel-control-prev {
+  background: rgb(238, 238, 238) !important;
+  width: 35px !important;
+  height: 35px !important;
+  opacity: 0.9 !important;
+  transform: translateY(-50%) !important;
+  border-radius: 30px !important;
+  border: 1px solid #272f3a !important;
+  position: absolute !important;
+  top: 50% !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  transition: opacity 0.15s ease !important;
+  z-index: -1;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  color: #fff !important;
+  text-align: center !important;
+  cursor: pointer !important;
+}
+.carousel-control-next {
+  border-radius: 30px !important;
+  border: 1px solid #272f3a !important;
+  background: rgb(238, 238, 238) !important;
+  width: 35px !important;
+  height: 35px !important;
+  opacity: 0.9 !important;
+  position: absolute !important;
+  right: 0 !important;
+  top: 50% !important;
+  bottom: 0 !important;
+  transform: translateY(-50%) !important;
+  z-index: -1;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0 !important;
+  color: #fff !important;
+  text-align: center !important;
+  transition: opacity 0.15s ease !important;
+  cursor: pointer !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: inline-block;
+  width: 30% !important;
+  height: 2rem !important;
+  color: #fff !important;
+  text-align: center;
+}
+.pad180 {
+  padding-top: 180px;
+}
+.section100 {
+  height: 100vh;
+}
+.react-img {
+  width: 400px;
+}
+.colHeight {
+  min-height: 400px;
+}
+.slideHeader {
+  padding-top: 1rem !important;
+  padding-left: 1rem !important;
+  font-size: 45px !important;
+  letter-spacing: 1px !important;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.1s !important;
+}
+#slide1 .heading1 {
+  margin-top: 50px !important;
+  line-height: 68px;
+}
+.slide1 h4 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+.slide1,
+.slide5 {
+  -webkit-animation-name: fadeInDownBig;
+  animation-name: fadeInDownBig;
+}
+.slide2 {
+  -webkit-animation-name: fadeInLeftBig;
+  animation-name: fadeInLeftBig;
+}
+.slide3 {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+.slide4 {
+  -webkit-animation-name: fadeInRightBig;
+  animation-name: fadeInRightBig;
+}
+.slideBodyText {
+  margin-top: 3rem !important;
+  padding-left: 1rem !important;
+  margin-bottom: 3rem !important;
+  max-width: 600px !important;
+  font-size: 18px !important;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  color: #8492a6 !important;
+  animation-delay: 0.3s !important;
+}
+.h3Bold {
+  margin-top: 1rem !important;
+  color: #8492a6 !important;
+  font-size: 30px !important;
+  font-weight: 600 !important;
+  padding-left: 1rem !important;
+  margin-bottom: 3rem !important;
+  max-width: 600px !important;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.3s !important;
+}
+.slideBodyCTA {
+  padding-left: 1rem !important;
+  margin-bottom: 3rem !important;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-delay: 0.7s !important;
+}
+.CTAbtn {
+  box-shadow: 0 3px 5px 0 rgb(47 85 212 / 30%) !important;
+  border: 1px solid #2f55d4 !important;
+  color: #fff !important;
+  background-color: #2f55d4 !important;
+  padding: 8px 20px !important;
+  outline: none !important;
+  text-decoration: none !important;
+  font-size: 16px !important;
+  letter-spacing: 0.5px !important;
+  transition: all 0.3s !important;
+  font-weight: 600 !important;
+  border-radius: 6px !important;
+}
+.slideText1,
+.slideText2,
+.slideText3,
+.slideText4,
+.slideText5,
+.slideCTA1,
+.slideCTA2,
+.slideCTA3,
+.slideCTA4,
+.slideCTA5 {
+  -webkit-animation-name: fadeInUpBig;
+  animation-name: fadeInUpBig;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+.position-relative {
+  position: relative !important;
+}
+
+/* Key Frames */
+@-webkit-keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUpBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(2000px);
+    -ms-transform: translateY(2000px);
+    transform: translateY(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInDownBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInRightBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(2000px);
+    -ms-transform: translateX(2000px);
+    transform: translateX(2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@-webkit-keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+@keyframes fadeInLeftBig {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+.slide1-span {
+  display: flex;
+}
+@media screen and (max-width: 580px) {
+  #slide1 .heading1 {
+    line-height: 40px;
+  }
+  .slide1-span {
+    flex-direction: column;
+  }
+  .scroller {
+    height: 26px;
+  }
+  .scroller > span {
+    font-size: 30px !important;
+  }
+  .slide1 h4 {
+    font-size: 24px;
+  }
+  .pad180 {
+    padding: 20px 0;
+  }
+  .slideHeader {
+    font-size: 30px !important;
+    text-align: left;
+    padding-left: 0 !important;
+  }
+  .slideBodyText {
+    margin: 10px auto !important;
+    padding: 2px 0 !important;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 991px) {
+}

@@ -1,0 +1,436 @@
+.ourclient-grid .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ourclient-display {
+  margin: 10px auto 50px;
+  width: 100%;
+}
+
+.ourclient-display .container {
+  max-width: 85% !important;
+  padding: 0 !important;
+}
+
+.ourclient-card {
+  padding: 0 !important;
+  min-width: 165px;
+  /* width: 26%; */
+  height: 150px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.5s;
+  justify-content: space-evenly;
+  margin: 23px;
+}
+
+.ourclient-card .Header {
+  margin-left: 10px;
+  margin-top: -130px;
+  padding: 0 8px 4px 0;
+  width: fit-content;
+  height: fit-content;
+  display: none;
+  position: absolute;
+}
+
+.ourclient-card .SubHeader {
+  margin-left: 10px;
+  margin-top: -100px;
+  padding: 0 0px 4px;
+  width: 200px;
+  font-weight: 500;
+  display: none;
+  position: absolute;
+}
+
+.displayCheck {
+  display: block !important;
+  color: #000;
+}
+@supports (background: paint(houdini)) {
+  @property --opacity {
+    syntax: "<number>";
+    initial-value: 0.5;
+    inherits: false;
+  }
+
+  @property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+  }
+
+  @keyframes opacityChange {
+    to {
+      --opacity: 1;
+    }
+  }
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+}
+:root {
+  --angle: 45deg;
+  --opacity: 0.5;
+}
+.AllImg:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: auto;
+  filter: blur(4px);
+
+  display: grid;
+  place-content: center;
+  --border-size: 0.3rem;
+  border: var(--border-size) solid transparent;
+  animation: rotate 3s linear infinite, opacityChange 3s infinite alternate;
+  border-image: conic-gradient(
+      from var(--angle),
+      #d53e33 0deg 90deg,
+      #fbb300 90deg 180deg,
+      #377af5 180deg 270deg,
+      #399953 270deg 360deg
+    )
+    1 stretch;
+}
+.Adobe {
+  background-image: url("/src/assets/images/Adobe_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.European {
+  background-image: url("/src/assets/images/European_Commission_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Flir {
+  background-image: url("/src/assets/images/FLIR_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.INSEAD {
+  background-image: url("/src/assets/images/INSEAD_Logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Minstry {
+  background-image: url("/src/assets/images/ministry_of_social_development_new_zealand_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Mura {
+  background-image: url("/src/assets/images/mura_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Nokia {
+  background-image: url("/src/assets/images/nokia_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Pixl8 {
+  background-image: url("/src/assets/images/pixl8-group_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Novartis {
+  background-image: url("/src/assets/images/Novartis_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Preside {
+  background-image: url("/src/assets/images/preside_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.slatwall {
+  background-image: url("/src/assets/images/slatwall_commerce_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Terradotta {
+  background-image: url("/src/assets/images/terradotta_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Toomba {
+  background-image: url("/src/assets/images/Toomba_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Bitholla {
+  background-image: url("/src/assets/images/bitholla_logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Yardstick {
+  background-image: url("/src/assets/images/Yardstick.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Razuna {
+  background-image: url("/src/assets/images/razuna.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.AEFIS {
+  background-image: url("/src/assets/images/AEFIS.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Aerialink {
+  background-image: url("/src/assets/images/aerialink.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Simply {
+  background-image: url("/src/assets/images/SimplyDesignGroup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.CentricWeb {
+  background-image: url("/src/assets/images/centricweb.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Zirku {
+  background-image: url("/src/assets/images/Zirku_UAE.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Scribblar {
+  background-image: url("/src/assets/images/Scribblar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Fort {
+  background-image: url("/src/assets/images/fort_worth_project_management_institute.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Generation {
+  background-image: url("/src/assets/images/Generation-Web.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Design903 {
+  background-image: url("/src/assets/images/design903.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Net {
+  background-image: url("/src/assets/images/netproject.co.nz.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.PaperLessPTO {
+  background-image: url("/src/assets/images/paperless-pto.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Semnet {
+  background-image: url("/src/assets/images/Semnet.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.CSIU {
+  background-image: url("/src/assets/images/CSIU.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Skicoupons {
+  background-image: url("/src/assets/images/SkiCoupons.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+.Teebone {
+  background-image: url("/src/assets/images/teebone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.Vogam {
+  background-image: url("/src/assets/images/vogam.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.Teebone {
+  background-image: url("/src/assets/images/teebone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.Tennis {
+  background-image: url("/src/assets/images/tennisblastgroup.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.Aslan {
+  background-image: url("/src/assets/images/aslan_interactive.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.BondExpress {
+  background-image: url("/src/assets/images/bondsexpress.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.CyberScriber {
+  background-image: url("/src/assets/images/cyberscriber.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 580px) {
+  .ourclient-grid .row {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+}

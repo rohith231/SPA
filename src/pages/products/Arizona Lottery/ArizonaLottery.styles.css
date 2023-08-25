@@ -1,0 +1,38 @@
+ul {
+  margin-bottom: 0 !important;
+}
+.ArizonaLotteryImg1 {
+  background-image: url("/src/assets/images/ArizonaLotteryImg1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.ArizonaLotteryImg2 {
+  background-image: url("/src/assets/images/home/Slider Logos/logo9.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.ArizonaLotteryImg3 {
+  background-image: url("/src/assets/images/MegaMillions_4C_2016.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.ArizonaLotteryImg4 {
+  background-image: url("/src/assets/images/fantasyArizonaLottery.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+}
+.summary {
+  margin: 0 !important;
+}

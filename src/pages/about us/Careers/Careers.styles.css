@@ -1,0 +1,127 @@
+.FreshersImg {
+  background-image: url("/src/assets/images/FreshersImg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.ReactJsImg {
+  background-image: url("/src/assets/icons/react.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.JsImg {
+  background-image: url("/src/assets/images/JsImg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.ReactNativeImg {
+  background-image: url("/src/assets/icons/react.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.PythonImg {
+  background-image: url("/src/assets/images/PythonImg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.Careers-HR {
+  margin: 16px auto;
+  width: 85%;
+  color: #888;
+}
+.centerIt {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.makeItBig {
+  width: 470px !important;
+  height: 450px !important;
+}
+.Careers-Card-Container {
+  margin: 30px auto;
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.Careers-Card {
+  margin: 10px;
+  min-width: 300px;
+  width: 23%;
+  height: 420px;
+  border-radius: 12px;
+  box-shadow: 0 0 5px 1px #ddd;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+.Careers-Card:hover {
+  margin: 0 10px 20px;
+}
+.Careers-bg {
+  background-image: url("/src/assets/images/Careers-bg.jpg");
+  background-size: cover;
+  height: 45%;
+}
+.Careers-h3 {
+  padding: 14px;
+  width: fit-content;
+  font-weight: 400;
+}
+.Careers-icon {
+  margin: -25px auto 0;
+  width: 60px;
+  height: 60px;
+  background-color: #eee;
+  border-radius: 50px;
+  box-shadow: 0 0 5px 2px #ddd;
+}
+.Careers-address {
+  margin: 10px auto;
+  font-size: 20px;
+  color: #777;
+}
+.Careers-experience {
+  padding: 10px 14px 0;
+  width: fit-content;
+  font-size: 18px;
+}
+.Careers-workingHours {
+  padding: 0 14px 20px;
+  width: fit-content;
+  font-size: 18px;
+}
+.Careers-button .button {
+  width: 90%;
+  font-size: 20px;
+  background-color: #fff;
+  color: rgb(18, 101, 218);
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 580px) {
+  .Careers-Card-Container {
+    justify-content: center;
+  }
+  .makeItBig {
+    width: 300px !important;
+    height: 420px !important;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+}

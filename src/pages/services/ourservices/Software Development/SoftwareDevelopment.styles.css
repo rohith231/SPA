@@ -1,0 +1,55 @@
+.para {
+    margin: auto;
+    width: 85%;
+    text-align: justify;
+    font-size: 18px;
+}
+.jsFullStackImg1 {
+    background-image: url("/src/assets/images/fullstack_js_developer.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    background-position: center;
+}
+.MicrosoftImg1 {
+    background-image: url("/src/assets/images/microsoft_.net_development1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    }
+.MicrosoftImg2 {
+    background-image: url("/src/assets/images/microsoft_.net_development2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 400px;
+    background-position: center;
+    }
+@media screen and (max-width: 580px) {
+    .jsFullStackImg1 {
+        height: 200px;
+    }
+    .MicrosoftImg1 {
+        height: 200px;
+    }
+    .MicrosoftImg2 {
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .jsFullStackImg1 {
+        height: 200px;
+    }
+
+    .MicrosoftImg1 {
+        height: 200px;
+    }
+
+    .MicrosoftImg2 {
+        height: 200px;
+    }
+}

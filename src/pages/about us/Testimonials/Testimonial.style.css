@@ -1,0 +1,25 @@
+.style{
+    border-left: 3px solid #dee2e6;
+    border-radius: 6px;
+    padding: 0.5rem!important;
+}
+.text{
+    font-style: italic!important;
+    color: #6c757d!important;
+    margin-top: 5px;
+}
+.info{
+    padding-left: 8px;
+}
+.title{
+    margin-top: 50px;
+}
+.starr{
+    justify-content: center;
+    width: 150px;
+    display: flex;
+    color: #4467ea;
+    margin-bottom: 10px !important;
+  }
+
+  

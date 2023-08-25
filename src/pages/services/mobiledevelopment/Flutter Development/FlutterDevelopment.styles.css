@@ -1,0 +1,49 @@
+.flutterImg1 {
+    margin: 0;
+    background-image: url("/src/assets/images/flutter_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    width: 100%;
+    height: 230px;
+    background-position: center;
+}
+
+.flutterImg2 {
+    margin: 0;
+    background-image: url("/src/assets/images/flutter_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-width: 300px;
+    width: 100%;
+    height: 230px;
+    background-position: center;
+}
+
+.col30Flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.col30Flex ul {
+    margin: 0;
+}
+
+.col30Flex h2 {
+    margin: 30px auto;
+}
+
+.col30Flex {
+    overflow: hidden;
+}
+
+@media screen and (max-width: 580px) {}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .flutterImg1 {
+        width: 450px;
+    }
+    .flutterImg2 {
+        width: 450px;
+    }
+}

@@ -1,0 +1,7 @@
+.home-bg {
+  height: fit-content !important;
+}
+@media screen and (max-width: 580px) {
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+}

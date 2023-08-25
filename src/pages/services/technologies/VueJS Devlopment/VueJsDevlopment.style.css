@@ -1,0 +1,35 @@
+.Vuejs1 {
+    background-image: url("/src/assets/images/easy_vue.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 350px;
+    /* background-position: center;  */
+   
+     margin-top: 20px;
+     
+    
+}
+.Vuejs2 {
+    background-image: url("/src/assets/images/vuetify.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 250px;
+    /* background-position: center;
+    margin-right: 20px; */
+    margin-top: 90px;
+ 
+    
+}
+.Vuejs3 {
+    background-image: url("/src/assets/images/vuexpress.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 350px;
+    /* background-position: center;
+    margin-right: 20px;  */
+
+    
+}

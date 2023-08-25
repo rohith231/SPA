@@ -1,0 +1,126 @@
+.WhyChoose {
+  background-color: #ebf3fa;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  height: fit-content;
+}
+.block {
+  display: flex;
+  align-items: center;
+}
+.WhyChoose .container {
+  max-width: 1700px;
+  padding: 50px 50px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  flex-direction: column;
+  align-items: center;
+}
+#Black {
+  font-size: 40px;
+  font-weight: 500;
+  color: #f6931d;
+  position: relative;
+}
+#White {
+  color: #333;
+  font-size: 40px;
+  font-weight: 500;
+}
+.headingUs {
+  flex-direction: row;
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 30px;
+}
+.line {
+  height: 4px;
+  width: 120px;
+  background-color: #f6931d;
+  min-height: 0px;
+  margin-bottom: 10px;
+}
+.div-block {
+  display: flex;
+  align-items: center;
+}
+#div_block {
+  min-width: 260px;
+  width: 33.33%;
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.ct-new-columns {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ct-new-columns > .div-block {
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.ct-div-block {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.whychoose-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.imagess {
+  width: 200px;
+  height: 160px;
+}
+.Txt {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media screen and (max-width: 580px) {
+  .WhyChoose .headingUs {
+    padding-bottom: 5px;
+  }
+  #Black {
+    font-size: 24px;
+  }
+  #White {
+    font-size: 24px;
+  }
+  #div_block {
+    margin: 4px;
+    min-width: 100px;
+  }
+  .imagess {
+    width: 100px;
+    height: 80px;
+  }
+  .Txt {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  #div_block {
+    margin: 4px;
+    min-width: 150px;
+  }
+  .imagess {
+    width: 150px;
+    height: 120px;
+  }
+  .Txt {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}

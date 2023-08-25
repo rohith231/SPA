@@ -1,0 +1,40 @@
+.reactNative {
+    margin: 0;
+    background-image: url("/src/assets/images/react-native-i.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 230px;
+    background-position: center;
+}
+.rnDevImg {
+    margin: 0;
+    background-image: url("/src/assets/images/Rn_app_development.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 380px;
+    background-position: center;
+}
+.col30Flex {
+    display: flex;
+    flex-direction: column;
+}
+.col30Flex ul {
+    margin: 0;
+}
+.col30Flex h2 {
+    margin: 30px auto;
+}
+.col30Flex {
+    overflow: hidden;
+}
+@media screen and (max-width: 580px) {
+
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .reactNative {
+        width: 450px;
+    }
+}

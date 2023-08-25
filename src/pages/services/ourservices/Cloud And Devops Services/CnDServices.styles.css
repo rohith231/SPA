@@ -1,0 +1,24 @@
+.cloudServicesImg {
+    background-image: url("/src/assets/images/AWS_Azure_salesforce_cloud_services.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
+.awsImg {
+    background-image: url("/src/assets/images/amazon_web_services-AWS.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}
+.windowsImg {
+    background-image: url("/src/assets/images/Microsoft_Azure.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    background-position: center;
+}

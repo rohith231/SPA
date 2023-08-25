@@ -1,0 +1,85 @@
+#stats {
+  height: 0;
+}
+.stats-height {
+  width: 80%;
+  height: fit-content;
+  margin: auto !important;
+  background-color: #f8f9fc;
+  padding: 0;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 1);
+  position: relative;
+  z-index: 1;
+  top: -115px;
+}
+.stats-card {
+  display: flex;
+  flex-direction: column;
+}
+.stats-card svg {
+  font-size: 50px;
+}
+.stats-card h2 {
+  margin: 20px 0;
+  font-size: 35px;
+}
+.stats-card span {
+  margin: 20px 0;
+  font-size: 36px;
+}
+.statTitle {
+  margin: 10px auto 0 !important;
+  width: fit-content;
+  font-size: 36px !important;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.statSubTitle {
+  margin: 0 auto 2rem !important;
+  width: fit-content;
+  text-align: center;
+  color: #8492a6 !important;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 16px !important;
+}
+.fontAwIcon {
+  margin: 30px auto !important;
+  width: fit-content;
+  font-size: 42px !important;
+  color: #2f55d4 !important;
+  font-weight: 600 !important;
+}
+@media screen and (max-width: 580px) {
+  #stats {
+    position: relative;
+    top: 160px;
+    margin-bottom: 50px !important;
+  }
+  .stats-height {
+    height: 660px;
+  }
+  .stats-card span {
+    font-size: 26px;
+  }
+  .statTitle {
+    font-size: 26px !important;
+  }
+  .fontAwIcon {
+    margin: 10px auto !important;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  .stats-card-box {
+    width: 25% !important;
+  }
+  .statTitle {
+    font-size: 25px !important;
+  }
+  .statSubTitle {
+    font-size: 14px !important;
+  }
+}

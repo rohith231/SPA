@@ -1,0 +1,144 @@
+.portfolio-text {
+  margin: auto;
+  width: 85%;
+  height: 40px;
+  color: #fff;
+  background-color: #f9576a;
+  border-radius: 8px;
+  font-size: 18px;
+  text-indent: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.portfolio-text p,
+b {
+  margin: 0;
+  padding: 0;
+}
+.nav-pills {
+  font-size: 8px !important;
+}
+.portfolio-navbar {
+  margin: 20px auto;
+  width: 85%;
+}
+.portfolio-nav {
+  margin: 0;
+  position: inherit;
+}
+.portoflio-grid {
+  margin: 0 auto !important;
+}
+.portoflio-grid .row {
+  display: flex;
+  justify-content: flex-start;
+}
+.portoflio-display {
+  margin: 10px auto 50px;
+  width: 100%;
+}
+.portoflio-display .container {
+  max-width: 85% !important;
+  padding: 0 !important;
+}
+.portfolio-card {
+  margin: 20px 10px;
+  padding: 0 !important;
+  min-width: 300px;
+  width: 24%;
+  height: 270px;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.5s;
+  justify-content: space-evenly;
+}
+.portfolio-card .Header {
+  margin-left: 10px;
+  margin-top: -80px;
+  padding: 0 8px 4px;
+  display: none;
+  position: absolute;
+}
+.portfolio-card .SubHeader {
+  margin-left: 10px;
+  margin-top: -50px;
+  padding: 0 8px 4px;
+  font-weight: 500;
+  display: none;
+  position: absolute;
+}
+.displayCheck {
+  display: block !important;
+  color: #000;
+}
+.MatchSquare {
+  background-image: url("/src/assets/images/MatchSquare1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.ArizonaLottery {
+  background-image: url("/src/assets/images/ArizonaLotteryImg1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.Telemed2U {
+  background-image: url("/src/assets/images/Telemed2U.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.KayoAuto {
+  background-image: url("/src/assets/images/KayoAuto.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  transition: all 0.3s;
+}
+.MatchSquare:hover {
+  cursor: pointer;
+  opacity: 40%;
+  filter: blur(5px);
+  transform: rotate(5deg) scale(1.2);
+}
+.ArizonaLottery:hover {
+  cursor: pointer;
+  opacity: 40%;
+  filter: blur(5px);
+  transform: rotate(5deg) scale(1.2);
+}
+.Telemed2U:hover {
+  cursor: pointer;
+  opacity: 40%;
+  filter: blur(5px);
+  transform: rotate(5deg) scale(1.2);
+}
+.KayoAuto:hover {
+  cursor: pointer;
+  opacity: 40%;
+  filter: blur(5px);
+  transform: rotate(5deg) scale(1.2);
+}
+@media screen and (max-width: 580px) {
+  .portoflio-grid .row {
+    justify-content: center;
+  }
+  .portfolio-navbar .nav {
+    margin: auto;
+    width: fit-content;
+  }
+  .portfolio-text {
+    padding: 10px 0;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+}

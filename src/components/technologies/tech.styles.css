@@ -1,0 +1,153 @@
+#tech-stack {
+  padding: 0px 50px 10px !important;
+  background-color: #fefae0;
+}
+#tech-stack .nav {
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+#tech-stack .nav-item {
+  margin: 0 5px;
+}
+#tech-stack .tech-card {
+  padding: 10px;
+  visibility: visible;
+  will-change: transform;
+  opacity: 1;
+  transition: all 0.3s;
+  transform: translate(0px, 0px) scale(1);
+  margin: 30px 10px 0 10px !important;
+  border: 2px solid #2f55d4 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}
+#tech-stack .tech-card:hover {
+  cursor: copy;
+  background-color: #2f55d4;
+  color: #e9ecef;
+}
+#tech-stack .tech-card img {
+  width: 60px;
+}
+#tech-stack .sectionHeader {
+  margin: auto !important;
+  padding-top: 140px;
+}
+#tech-stack .sectionBody {
+  margin: 20px auto !important;
+  width: 45%;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.4);
+}
+#tech-stack .row {
+  display: flex;
+  justify-content: center;
+}
+#tech-stack .container {
+  max-width: 100% !important;
+}
+.techno-nav {
+  position: relative !important;
+  top: 0 !important;
+}
+.tech-display {
+  margin-bottom: 50px;
+}
+.row {
+  justify-content: center;
+}
+.techHeader {
+  font-size: 16px !important;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  margin-top: 1rem !important;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+.techSubHeader {
+  color: #8492a6 !important;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 12px !important;
+  margin-bottom: 0 !important;
+  text-align: center;
+  text-transform: capitalize;
+}
+.nav-pills .nav-link {
+  font-size: 13px;
+  padding: 0px 15px;
+  margin: 5px 3px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  cursor: pointer;
+  line-height: 34px;
+  transition: all 0.5s ease;
+  border: 1px solid #e9ecef !important;
+  border-radius: 6px !important;
+  color: #3c4858 !important;
+  text-decoration: none;
+}
+.nav-pills .nav-link:hover {
+  border-color: #2f55d4 !important;
+  color: #2f55d4 !important;
+  text-decoration: none !important;
+}
+.nav-pills .nav-link:focus,
+.nav-pills .nav-link:focus-visible {
+  outline: none !important;
+}
+.nav-pills .nav-link.active {
+  border-color: #2f55d4 !important;
+  color: #2f55d4 !important;
+  text-decoration: none;
+  background-color: transparent !important;
+  outline: 0 !important;
+}
+@media screen and (max-width: 580px) {
+  #tech-stack {
+    top: -100px;
+    padding: 50px !important;
+  }
+  .tech-display {
+    margin-bottom: 0;
+  }
+  #tech-stack .nav-item {
+    margin: 0 10px;
+    width: 140px !important;
+  }
+  #tech-stack .sectionHeader {
+    padding-top: 100vh;
+  }
+  #tech-stack .sectionBody {
+    width: 100%;
+    text-align: justify;
+  }
+  .tech-card {
+    width: 80px !important;
+  }
+  .tech-grid {
+    padding: 0 !important;
+  }
+  .techHeader {
+    font-size: 14px !important;
+  }
+  .techSubHeader {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 991px) {
+  .tech-card {
+    width: 150px !important;
+  }
+  .tech-grid {
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,24 @@
+.socialMedia3 {
+    background-image: url("/src/assets/images/social_media_3.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    background-position: center;
+}
+.socialMedia2 {
+    background-image: url("/src/assets/images/social_media_2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    background-position: center;
+}
+.socialMedia1 {
+    background-image: url("/src/assets/images/social_media_1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 450px;
+    background-position: center;
+}

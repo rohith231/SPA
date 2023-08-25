@@ -1,0 +1,44 @@
+.golang {
+    background-image: url("/src/assets/images/golang.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 320px;
+    background-position: center;
+}
+.fitWidth {
+    width: 30%;
+}
+.cardType .OffCol1 {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cardType {
+    display: flex;
+}
+.ContainerWrapper {
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Container {
+    min-width: 320px;
+    width: 33%;
+}
+.Container h3 {
+    text-align: center;
+}
+.Container p {
+    text-align: center;
+}
+@media screen and (max-width: 580px) {
+    .fitWidth {
+        width: auto;
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {}

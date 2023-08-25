@@ -1,0 +1,73 @@
+#workSpec {
+  padding: 30px;
+  background: url(../../assets/images/home/shape2.png) center center;
+  overflow-x: hidden;
+  background-color: rgba(253, 253, 253);
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 60px 30px 30px 30px;
+}
+.subHeader {
+  font-weight: 700 !important;
+  font-size: 40px !important;
+  color: #0a0a0a !important;
+  text-align: center !important;
+}
+.sepTxt {
+  margin-left: 5px;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+  color: #2f55d4 !important;
+}
+.devCard:nth-child(1),
+.devCard:nth-child(2) {
+  margin: 0 25px;
+}
+.devCard:hover {
+  transform: translate3d(0, -2%, 0);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer !important;
+}
+.devImg {
+  width: 304px;
+  height: 228px;
+}
+.devTxt {
+  margin: auto;
+  font-weight: 700 !important;
+  font-size: 25px !important;
+  color: #0a0a0a !important;
+  text-align: center !important;
+}
+.devLink {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700 !important;
+  color: #2f55d4 !important;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center !important;
+  padding-top: 25px;
+  display: inline-block;
+  opacity: 0.75;
+}
+.devLink:hover {
+  color: #2f55d4 !important;
+  text-decoration: none;
+  opacity: 1;
+}
+@media screen and (max-width: 580px) {
+  .devCard:nth-child(1),
+  .devCard:nth-child(2) {
+    margin: 0;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  .devCard:nth-child(1),
+  .devCard:nth-child(2) {
+    margin: 0 20px;
+  }
+}

@@ -1,0 +1,195 @@
+.cardWrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.container-row {
+  margin: auto;
+  width: 90%;
+}
+.service-card {
+  width: 100%;
+  min-height: 350px;
+  border: none !important;
+  box-shadow: none;
+  background-color: transparent !important;
+}
+.service-card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.service-card button {
+  float: left;
+}
+.service-card .card-text {
+  text-align: justify;
+}
+.service-card-header {
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+}
+.service-card-header h5 {
+  font-size: 20px !important;
+}
+.service-card-header svg {
+  font-size: 40px;
+  margin: 10px;
+}
+.service-card p {
+  margin: 0;
+  font-size: 16px !important;
+  text-align: justify !important;
+}
+#services {
+  padding: 5px 10px !important;
+  background-color: rgb(232, 232, 232);
+}
+#services .sectionHeader {
+  font-size: 30px !important;
+  letter-spacing: 0.5px;
+  margin: auto;
+  margin-bottom: 1.5rem !important;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+#services .sectionBody {
+  max-width: 600px;
+  font-size: 16px !important;
+  text-align: center;
+  color: #8492a6 !important;
+  margin: 0 auto !important;
+  padding: 0 20px;
+  font-size: 20px;
+}
+.text-foot {
+  font-size: 16px;
+}
+.sectionLinkText {
+  color: #2f55d4 !important;
+  font-weight: 700 !important;
+}
+.sectionLinkText .text-foot {
+  text-decoration: none !important;
+  transition: all 0.5s ease;
+  color: #0d6efd;
+}
+.sectionLinkText .text-foot:hover {
+  color: #0a58ca;
+}
+.iconWrapper {
+  position: relative;
+  right: 0px;
+  width: fit-content;
+}
+.iconWrapper::before {
+  background: linear-gradient(45deg, transparent, rgba(47, 85, 212, 0.1));
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  width: 64px;
+  height: 64px;
+  border-radius: 6px;
+  transform: rotate(33.75deg);
+}
+.service-card h5 {
+  font-size: 28px;
+}
+.service-card p {
+  font-size: 18px;
+}
+.service-card:hover .iconWrapper::before {
+  animation: rotator 3s infinite linear;
+}
+.service-card:hover .serviceLink {
+  opacity: 1;
+}
+.serviceIcon {
+  color: #2f55d4 !important;
+  text-align: left;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 42px !important;
+}
+.card-title {
+  font-family: "Nunito", sans-serif !important;
+  line-height: 1.5 !important;
+  font-weight: 600 !important;
+  font-size: 20px !important;
+  margin-top: 3rem !important;
+  margin-bottom: 0.5rem !important;
+}
+.card-text {
+  text-align: justify;
+  color: #575f6b !important;
+  margin-bottom: 0 !important;
+  line-height: 1.6 !important;
+  font-family: "Nunito", sans-serif !important;
+  overflow-x: hidden !important;
+  font-size: 16px !important;
+}
+.serviceLink {
+  color: #0d6efd !important;
+  text-decoration: none !important;
+  transition: all 0.5s ease;
+  font-weight: 700 !important;
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden !important;
+  font-size: 16px !important;
+  margin-top: 10px;
+  opacity: 0.75;
+}
+.serviceLink:hover {
+  color: #0a58ca;
+  text-decoration: none;
+  opacity: 1;
+}
+@media screen and (max-width: 580px) {
+  .sectionBody {
+    font-size: 16px;
+    width: 80%;
+  }
+  #services {
+    padding: 0;
+  }
+  .service-card h5 {
+    font-size: 24px;
+  }
+
+  .service-card p {
+    font-size: 16px;
+  }
+  #services .sectionHeader {
+    margin: 30px auto 10px;
+    width: 80%;
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  .sectionHeader {
+    margin: auto;
+    width: 80%;
+  }
+}
+
+/* Key Frames */
+@keyframes rotator {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  10% {
+    transform: rotate(15deg) scale(1);
+  }
+  50% {
+    transform: rotate(-180deg) scale(1.4);
+  }
+  80%,
+  100% {
+    transform: rotate(-360deg) scale(1);
+  }
+}

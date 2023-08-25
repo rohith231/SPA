@@ -1,0 +1,30 @@
+.column-width {
+    width: 100%;
+}
+.col100 {
+    display: flex;
+}
+.row50 {
+    width: 50%;
+}
+.whiteul {
+    list-style-type: circle;
+    margin-left: 30px;
+}
+.webtesting {
+    background-image: url("/src/assets/images/webtesting.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 420px;
+    height: 420px;
+    background-position: center;
+}
+.textLeft {
+    text-align: left;
+    margin: 30px 0;
+}
+.alignCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

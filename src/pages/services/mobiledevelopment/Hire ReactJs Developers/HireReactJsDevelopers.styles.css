@@ -1,0 +1,62 @@
+.service1 {
+    background-image: url("/src/assets/images/services1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+    background-position: center;
+}
+
+.service2 {
+    background-image: url("/src/assets/images/services2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 400px;
+    background-position: center;
+}
+
+@media screen and (max-width: 580px) {
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image50 {
+        margin: auto;
+    }
+    .commonContainerWrapper {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service1 {
+        width: 350px;
+        height: 200px;
+    }
+
+    .service2 {
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+    .imageContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .image50 {
+        margin: auto;
+    }
+    .service1 {
+        width: 350px;
+        height: 200px;
+    }
+
+    .service2 {
+        width: 350px;
+        height: 200px;
+    }
+}

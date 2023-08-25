@@ -1,0 +1,65 @@
+.commonContainer {
+    margin: 20px 20px 20px 0;
+    width: 450px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+.commonContainer:hover {
+    margin: 0 20px 20px 0;
+}
+.ccheading2 {
+    width: fit-content;
+    margin: 20px;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.55);
+}
+.ccp {
+    width: 90%;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.35);
+}
+.ccheading1 {
+    width: fit-content;
+    margin: 20px;
+    font-size: 44px;
+    color: rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 580px) {
+.commonContainer {
+    width: 350px;
+}
+.ccheading2 {
+    margin: 10px;
+    font-size: 22px;
+}
+.ccp {
+    margin: 10px;
+    font-size: 14px;
+}
+.ccheading1 {
+    margin: 10px;
+    font-size: 38px;
+}
+}
+
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+.commonContainer {
+    width: 350px;
+}
+.ccheading2 {
+    margin: 10px;
+    font-size: 22px;
+}
+.ccp {
+    margin: 10px;
+    font-size: 14px;
+}
+.ccheading1 {
+    margin: 10px;
+    font-size: 38px;
+}
+}

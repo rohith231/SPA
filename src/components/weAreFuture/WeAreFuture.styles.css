@@ -1,0 +1,59 @@
+#weAreFuture {
+  padding: 20px 0 !important;
+  display: flex;
+  min-height: 400px;
+  max-height: max-content;
+  background-color: #000;
+  opacity: 0.8;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+}
+#weAreFuture .col50 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+#weAreFuture h1 {
+  margin-left: auto;
+  font-size: 45px;
+  font-weight: 700;
+  width: 80%;
+}
+#weAreFuture .img-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#weAreFuture .img-container .img-box {
+  margin-bottom: 20px;
+  min-width: 100px;
+  width: 30% !important;
+}
+/* #weAreFuture .img-container img {
+}
+#weAreFuture .img-container h5 {
+} */
+@media screen and (max-width: 580px) {
+  #weAreFuture {
+    flex-direction: column;
+  }
+  #weAreFuture .col50 {
+    width: 100%;
+    justify-content: center;
+  }
+  #weAreFuture .img-container {
+    justify-content: center;
+    align-items: center;
+  }
+  #weAreFuture h1 {
+    margin: auto;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 581px) and (max-width: 1024px) {
+  #weAreFuture h1 {
+    margin: auto;
+    font-size: 38px;
+  }
+}
